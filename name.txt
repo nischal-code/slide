@@ -1,0 +1,31 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    background: #222327;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.nav {
+    position: relative;
+    width: 400px;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-top: 0; /* Remove any top margin */
+}
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSj_4BZsKD79KQx9WhgO3NAVMuNTq_d6uZ7w&s" alt="Error">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswUxn08xuNyksUlnnU05x_Cb_nBHhoeasUA&s" alt="Error">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpBSQDVYcsUmi3VrxAwS_BDlkxgieFTcDrSg&s" alt="Error">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmxItgVI6cDpiOq_to1YRm6Lf-As4mePRZw&s" alt="Error">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh2fZ1rJXpSigfrvI-V8oWcoqATPQKGt9IOg&s" alt="Error">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlpW1o7Tl1VMcZvwZw7LY7jfyN21f2lbpv0w&s" alt="Error">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJMb4OCh3q7ChfbIUls8tQxs3zGAscmFfPOA&s" alt="Error">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAZgrLjyAckZIqAHfWLmTfstUDdtDtsZ1ywA&s" alt="Error">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeRHg2hFg-PmaX4twb-pouNAiuhn9n5_Lseg&s" alt="Error">

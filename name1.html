@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RotateY Control with JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: #3498db;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5em;
+      transform-origin: center;
+      transform: rotateY(0deg);
+      transition: transform 0.2s ease;
+    }
+
+    .slider-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="box" id="rotatingBox">Box</div>
+  <div class="slider-container">
+    <input type="range" id="rotateSlider" min="0" max="360" value="0">
+    <p>Rotate Y: <span id="rotateValue">0</span>°</p>
+  </div>
+
+  <script>
+    // Select elements
+    const rotatingBox = document.getElementById('rotatingBox');
+    const rotateSlider = document.getElementById('rotateSlider');
+    const rotateValue = document.getElementById('rotateValue');
+
+    // Update the rotation based on slider value
+    rotateSlider.addEventListener('input', () => {
+      const rotation = rotateSlider.value;
+      rotatingBox.style.transform = `rotateY(${rotation}deg)`;
+      rotateValue.textContent = rotation;
+    });
+  </script>
+</body>
+</html>
